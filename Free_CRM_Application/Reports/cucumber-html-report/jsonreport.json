@@ -1,0 +1,381 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Test the Login Functionality of FreeCrm",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22825000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Launch the Browser and navigate to the Url",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 431000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 532000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To ask Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T15:59:44.824Z",
+        "line": 9,
+        "name": "To Test the Home Functionality of FreeCrm",
+        "description": "",
+        "id": "to-test-the-freecrm-application;to-test-the-home-functionality-of-freecrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2008000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open Home functionlity of FreeCrm",
+            "match": {
+              "location": "com.step_defination.CogmentoHomeSteps.open_Home_functionlity_of_FreeCrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 614000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ask Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoHomeSteps.ask_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "To Test the Login Functionality of FreeCrm",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18277000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Launch the Browser and navigate to the Url",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 346000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 529000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To ask Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T16:00:11.879Z",
+        "line": 13,
+        "name": "To Test the Calendar Functionality of FreeCrm",
+        "description": "",
+        "id": "to-test-the-freecrm-application;to-test-the-calendar-functionality-of-freecrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1416000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Open Calendar functionlity of FreeCrm",
+            "match": {
+              "location": "com.step_defination.CogmentoCalendarSteps.open_Calendar_functionlity_of_FreeCrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 581000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ask the Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoCalendarSteps.ask_the_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "To Test the Login Functionality of FreeCrm",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24709000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Launch the Browser and navigate to the Url",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 292000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 369000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To ask Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T16:00:33.151Z",
+        "line": 17,
+        "name": "To Test the Contacts Functionality of FreeCrm",
+        "description": "",
+        "id": "to-test-the-freecrm-application;to-test-the-contacts-functionality-of-freecrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1963000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Open Contacts functionlity of FreeCrm",
+            "match": {
+              "location": "com.step_defination.CogmentoContactsSteps.open_Contacts_functionlity_of_FreeCrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1025000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "asks the Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoContactsSteps.asks_the_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "To Test the Login Functionality of FreeCrm",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31724000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Launch the Browser and navigate to the Url",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 314000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 544000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To ask Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T16:01:01.619Z",
+        "line": 21,
+        "name": "To Test the Companies Functionality of FreeCrm",
+        "description": "",
+        "id": "to-test-the-freecrm-application;to-test-the-companies-functionality-of-freecrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1163000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Open Companies functionlity of FreeCrm",
+            "match": {
+              "location": "com.step_defination.CogmentoCompaniesSteps.open_Companies_functionlity_of_FreeCrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 969000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "asks the Companies Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoCompaniesSteps.asks_the_Companies_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test The FreeCRM Application",
+    "description": "",
+    "id": "to-test-the-freecrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FreeCRM.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="114336" started-at="2020-09-17T15:59:43Z" finished-at="2020-09-17T16:01:37Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test_runner.TestRunner@6d1310f6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="114336" started-at="2020-09-17T15:59:43Z" finished-at="2020-09-17T16:01:37Z">
+      <class name="com.test_runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.test_runner.TestRunner@6d1310f6]" name="setUpClass" is-config="true" duration-ms="997" started-at="2020-09-17T15:59:43Z" finished-at="2020-09-17T15:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test_runner.TestRunner@6d1310f6]" name="runScenario" duration-ms="26959" started-at="2020-09-17T15:59:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T16:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Test the Home Functionality of FreeCrm"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test The FreeCRM Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test_runner.TestRunner@6d1310f6]" name="runScenario" duration-ms="21269" started-at="2020-09-17T16:00:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T16:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Test the Calendar Functionality of FreeCrm"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test The FreeCRM Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test_runner.TestRunner@6d1310f6]" name="runScenario" duration-ms="28466" started-at="2020-09-17T16:00:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T16:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Test the Contacts Functionality of FreeCrm"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test The FreeCRM Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.test_runner.TestRunner@6d1310f6]" name="runScenario" duration-ms="34802" started-at="2020-09-17T16:01:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T16:01:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Test the Companies Functionality of FreeCrm"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test The FreeCRM Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="Extentsreport()[pri:0, instance:com.test_runner.TestRunner@6d1310f6]" name="Extentsreport" is-config="true" duration-ms="16" started-at="2020-09-17T16:01:36Z" finished-at="2020-09-17T16:01:36Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.vimalselvam.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:57)
+at com.test_runner.TestRunner.Extentsreport(TestRunner.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentsreport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.test_runner.TestRunner@6d1310f6]" name="tearDownClass" is-config="true" duration-ms="1293" started-at="2020-09-17T16:01:36Z" finished-at="2020-09-17T16:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.test_runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

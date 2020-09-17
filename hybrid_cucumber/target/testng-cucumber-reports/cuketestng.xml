@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testng-results failed="0" passed="3" skipped="0" total="3">
-<suite duration-ms="76711" name="io.cucumber.core.plugin.TestNGFormatter">
-<test duration-ms="76711" name="io.cucumber.core.plugin.TestNGFormatter">
+<suite duration-ms="70174" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="70174" name="io.cucumber.core.plugin.TestNGFormatter">
 <class name="To Test The OrangeHrm Application">
-<test-method duration-ms="27852" finished-at="2020-09-17T06:03:49.848Z" name="To Test the Admin Functionality of OrangeHrm" started-at="2020-09-17T06:03:21.887Z" status="PASS"/>
-<test-method duration-ms="23487" finished-at="2020-09-17T06:04:13.587Z" name="To Test the Admin Functionality of OrangeHrm_2" started-at="2020-09-17T06:03:50.095Z" status="PASS"/>
-<test-method duration-ms="24608" finished-at="2020-09-17T06:04:38.213Z" name="To Test the Admin Functionality of OrangeHrm_3" started-at="2020-09-17T06:04:13.599Z" status="PASS"/>
+<test-method duration-ms="25968" finished-at="2020-09-17T10:01:22.790Z" name="To Test the Admin Functionality of OrangeHrm" started-at="2020-09-17T10:00:56.717Z" status="PASS"/>
+<test-method duration-ms="21736" finished-at="2020-09-17T10:01:44.751Z" name="To Test the Admin Functionality of OrangeHrm_2" started-at="2020-09-17T10:01:23.007Z" status="PASS"/>
+<test-method duration-ms="21676" finished-at="2020-09-17T10:02:06.446Z" name="To Test the Admin Functionality of OrangeHrm_3" started-at="2020-09-17T10:01:44.765Z" status="PASS"/>
 </class>
 </test>
 </suite>
