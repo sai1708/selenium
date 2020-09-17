@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="146.007" tests="5" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="106.619" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin"/>
     <property name="java.vm.version" value="25.202-b08"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\capgeminiworkspace\Free_CRM_Application"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\capgeminiworkspace\Free_CRM_Application"/>
+    <property name="user.dir" value="C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application"/>
     <property name="java.runtime.version" value="1.8.0_202-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\capgeminiworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10523577274152421418.tmp"/>
+    <property name="classworlds.conf" value="D:\capgeminiworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15246217759480400948.tmp"/>
     <property name="jansi.force" value="true"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/MONAGARI SAI/Downloads/jdk-11.0.8/bin/server;C:/Users/MONAGARI SAI/Downloads/jdk-11.0.8/bin;C:\Users\MONAGARI SAI\Downloads\jdk-11.0.8\bin;D:\app\MONAGARISAI\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\MONAGARI SAI\Downloads;C:\Users\MONAGARI SAI\Downloads\apachemaven\apache-maven-3.6.3\bin;D:\Softwares\sonar-scanner-4.4.0.2170-windows\bin;C:\Users\MONAGARI SAI\Downloads\allure-commandline-2.13.5\allure-2.13.5\bin;C:\Users\MONAGARI SAI\AppData\Local\Microsoft\WindowsApps;C:\Users\MONAGARI SAI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MONAGARI SAI\AppData\Roaming\npm;;D:\Softwares\sts-4.7.0.RELEASE;;."/>
@@ -54,7 +54,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\ext;C:\windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_202\lib\resources.jar;C:\Program Files\Java\jre1.8.0_202\lib\rt.jar;C:\Program Files\Java\jre1.8.0_202\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_202\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_202\lib\jce.jar;C:\Program Files\Java\jre1.8.0_202\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_202\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_202\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\capgeminiworkspace\Free_CRM_Application\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\EMBEDDED"/>
     <property name="style.color" value="always"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -63,407 +63,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="runScenario" classname="com.test_runner.TestRunner" time="36.875">
-    <failure message="timeout: Timed out receiving message from renderer: 26.333&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-ME982STI&apos;, ip: &apos;192.168.43.60&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59694}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: dbb50bf8c2869048da3ad2cbe610b541" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 26.333
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-ME982STI', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59694}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dbb50bf8c2869048da3ad2cbe610b541
-</failure>
-    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-
-Scenario: To Test the Home Functionality of FreeCrm   &amp#27;[90m# src/test/resources/features/FreeCRM.feature:9&amp#27;[0m
-log4j: Parsing for [root] with value=[INFO,CONSOLE,R,HTML,TTCC].
-log4j: Level token is [INFO].
-log4j: Category root set to INFO
-log4j: Parsing appender named "CONSOLE".
-log4j: Parsing layout options for "CONSOLE".
-log4j: Setting property [conversionPattern] to [%5p [%t] (%F:%L)- %m%n].
-log4j: End of parsing for "CONSOLE".
-log4j: Parsed "CONSOLE" options.
-log4j: Parsing appender named "R".
-log4j: Parsing layout options for "R".
-log4j: Setting property [conversionPattern] to [%d - %c -%p - %m%n].
-log4j: End of parsing for "R".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFile.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFile.log, true
-log4j: setFile ended
-log4j: Parsed "R" options.
-log4j: Parsing appender named "HTML".
-log4j: Parsing layout options for "HTML".
-log4j: Setting property [title] to [Application log].
-log4j: Setting property [locationInfo] to [true].
-log4j: End of parsing for "HTML".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//application.html].
-log4j: setFile called: .//src//test//resources//log4jproperties//application.html, true
-log4j: setFile ended
-log4j: Parsed "HTML" options.
-log4j: Parsing appender named "TTCC".
-log4j: Parsing layout options for "TTCC".
-log4j: Setting property [dateFormat] to [ISO8601].
-log4j: End of parsing for "TTCC".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFileBackup.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFileBackup.log, true
-log4j: setFile ended
-log4j: Parsed "TTCC" options.
-log4j: Finished configuring.
- INFO [main] (Library.java:45)- Starting with Browser Set Up
- INFO [main] (Library.java:53)- Identified the browser as chrome. Launching the browser
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mTo Launch the Browser and navigate to the Url&amp#27;[0m &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 26.333
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-ME982STI', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59694}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dbb50bf8c2869048da3ad2cbe610b541
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.base_class.Library.browserSetUp(Library.java:82)
-	at com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url(CogmentoLoginSteps.java:18)
-	at ?.To Launch the Browser and navigate to the Url(file:///D:/capgeminiworkspace/Free_CRM_Application/src/test/resources/features/FreeCRM.feature:4)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mTo Enter Username and Password&amp#27;[0m                 &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mTo Click the Submit button&amp#27;[0m                     &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mTo ask Screeshot and the Title&amp#27;[0m                 &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()&amp#27;[0m
-  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mOpen Home functionlity of FreeCrm&amp#27;[0m             &amp#27;[90m# com.step_defination.CogmentoHomeSteps.open_Home_functionlity_of_FreeCrm()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mask Screeshot and the Title&amp#27;[0m                    &amp#27;[90m# com.step_defination.CogmentoHomeSteps.ask_Screeshot_and_the_Title()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Sep 17, 2020 9:26:20 PM io.cucumber.testng.TestNGCucumberRunner <init>
-WARNING: By default Cucumber is running in --non-strict mode.
-This default will change to --strict and --non-strict will be removed.
-You can use --strict or @CucumberOptions(strict = true) to suppress this warning
-Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 27306
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 17, 2020 9:26:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1600358218.020][SEVERE]: Timed out receiving message from renderer: 26.333
-[1600358218.022][SEVERE]: Timed out receiving message from renderer: 26.333
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario" classname="com.test_runner.TestRunner" time="35.52">
-    <failure message="timeout: Timed out receiving message from renderer: 27.352&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-ME982STI&apos;, ip: &apos;192.168.43.60&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f8780d44f1b84041b9d61b7c97be39ed" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 27.352
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-ME982STI', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f8780d44f1b84041b9d61b7c97be39ed
-</failure>
-    <system-out><![CDATA[
-Scenario: To Test the Calendar Functionality of FreeCrm &amp#27;[90m# src/test/resources/features/FreeCRM.feature:13&amp#27;[0m
-log4j: Parsing for [root] with value=[INFO,CONSOLE,R,HTML,TTCC].
-log4j: Level token is [INFO].
-log4j: Category root set to INFO
-log4j: Parsing appender named "CONSOLE".
-log4j: Parsing layout options for "CONSOLE".
-log4j: Setting property [conversionPattern] to [%5p [%t] (%F:%L)- %m%n].
-log4j: End of parsing for "CONSOLE".
-log4j: Parsed "CONSOLE" options.
-log4j: Parsing appender named "R".
-log4j: Parsing layout options for "R".
-log4j: Setting property [conversionPattern] to [%d - %c -%p - %m%n].
-log4j: End of parsing for "R".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFile.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFile.log, true
-log4j: setFile ended
-log4j: Parsed "R" options.
-log4j: Parsing appender named "HTML".
-log4j: Parsing layout options for "HTML".
-log4j: Setting property [title] to [Application log].
-log4j: Setting property [locationInfo] to [true].
-log4j: End of parsing for "HTML".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//application.html].
-log4j: setFile called: .//src//test//resources//log4jproperties//application.html, true
-log4j: setFile ended
-log4j: Parsed "HTML" options.
-log4j: Parsing appender named "TTCC".
-log4j: Parsing layout options for "TTCC".
-log4j: Setting property [dateFormat] to [ISO8601].
-log4j: End of parsing for "TTCC".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFileBackup.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFileBackup.log, true
-log4j: setFile ended
-log4j: Parsed "TTCC" options.
-log4j: Finished configuring.
- INFO [main] (Library.java:45)- Starting with Browser Set Up
- INFO [main] (Library.java:53)- Identified the browser as chrome. Launching the browser
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mTo Launch the Browser and navigate to the Url&amp#27;[0m   &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 27.352
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-ME982STI', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f8780d44f1b84041b9d61b7c97be39ed
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.base_class.Library.browserSetUp(Library.java:82)
-	at com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url(CogmentoLoginSteps.java:18)
-	at ?.To Launch the Browser and navigate to the Url(file:///D:/capgeminiworkspace/Free_CRM_Application/src/test/resources/features/FreeCRM.feature:4)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mTo Enter Username and Password&amp#27;[0m                   &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mTo Click the Submit button&amp#27;[0m                       &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mTo ask Screeshot and the Title&amp#27;[0m                   &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()&amp#27;[0m
-  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mOpen Calendar functionlity of FreeCrm&amp#27;[0m           &amp#27;[90m# com.step_defination.CogmentoCalendarSteps.open_Calendar_functionlity_of_FreeCrm()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mask the Screeshot and the Title&amp#27;[0m                  &amp#27;[90m# com.step_defination.CogmentoCalendarSteps.ask_the_Screeshot_and_the_Title()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 13291
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 17, 2020 9:27:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1600358253.878][SEVERE]: Timed out receiving message from renderer: 27.352
-[1600358253.879][SEVERE]: Timed out receiving message from renderer: 27.352
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario" classname="com.test_runner.TestRunner" time="35.545">
-    <failure message="timeout: Timed out receiving message from renderer: 24.925&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-ME982STI&apos;, ip: &apos;192.168.43.60&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 16a649239ac42c17d5f003b40fb290c8" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 24.925
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-ME982STI', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16a649239ac42c17d5f003b40fb290c8
-</failure>
-    <system-out><![CDATA[
-Scenario: To Test the Contacts Functionality of FreeCrm &amp#27;[90m# src/test/resources/features/FreeCRM.feature:17&amp#27;[0m
-log4j: Parsing for [root] with value=[INFO,CONSOLE,R,HTML,TTCC].
-log4j: Level token is [INFO].
-log4j: Category root set to INFO
-log4j: Parsing appender named "CONSOLE".
-log4j: Parsing layout options for "CONSOLE".
-log4j: Setting property [conversionPattern] to [%5p [%t] (%F:%L)- %m%n].
-log4j: End of parsing for "CONSOLE".
-log4j: Parsed "CONSOLE" options.
-log4j: Parsing appender named "R".
-log4j: Parsing layout options for "R".
-log4j: Setting property [conversionPattern] to [%d - %c -%p - %m%n].
-log4j: End of parsing for "R".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFile.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFile.log, true
-log4j: setFile ended
-log4j: Parsed "R" options.
-log4j: Parsing appender named "HTML".
-log4j: Parsing layout options for "HTML".
-log4j: Setting property [title] to [Application log].
-log4j: Setting property [locationInfo] to [true].
-log4j: End of parsing for "HTML".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//application.html].
-log4j: setFile called: .//src//test//resources//log4jproperties//application.html, true
-log4j: setFile ended
-log4j: Parsed "HTML" options.
-log4j: Parsing appender named "TTCC".
-log4j: Parsing layout options for "TTCC".
-log4j: Setting property [dateFormat] to [ISO8601].
-log4j: End of parsing for "TTCC".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFileBackup.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFileBackup.log, true
-log4j: setFile ended
-log4j: Parsed "TTCC" options.
-log4j: Finished configuring.
- INFO [main] (Library.java:45)- Starting with Browser Set Up
- INFO [main] (Library.java:53)- Identified the browser as chrome. Launching the browser
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mTo Launch the Browser and navigate to the Url&amp#27;[0m   &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 24.925
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-ME982STI', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 16a649239ac42c17d5f003b40fb290c8
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.base_class.Library.browserSetUp(Library.java:82)
-	at com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url(CogmentoLoginSteps.java:18)
-	at ?.To Launch the Browser and navigate to the Url(file:///D:/capgeminiworkspace/Free_CRM_Application/src/test/resources/features/FreeCRM.feature:4)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mTo Enter Username and Password&amp#27;[0m                   &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mTo Click the Submit button&amp#27;[0m                       &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mTo ask Screeshot and the Title&amp#27;[0m                   &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()&amp#27;[0m
-  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mOpen Contacts functionlity of FreeCrm&amp#27;[0m           &amp#27;[90m# com.step_defination.CogmentoContactsSteps.open_Contacts_functionlity_of_FreeCrm()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36masks the Screeshot and the Title&amp#27;[0m                 &amp#27;[90m# com.step_defination.CogmentoContactsSteps.asks_the_Screeshot_and_the_Title()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 21858
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 17, 2020 9:27:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1600358289.423][SEVERE]: Timed out receiving message from renderer: 24.925
-[1600358289.424][SEVERE]: Timed out receiving message from renderer: 24.925
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario" classname="com.test_runner.TestRunner" time="29.123">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-ME982STI&apos;, ip: &apos;192.168.43.60&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 54d2868c6ff71104580a12b1f764c89b&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;ui&quot;]/div/div/form/div/div[1]/div/input}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-ME982STI', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 54d2868c6ff71104580a12b1f764c89b
-*** Element info: {Using=xpath, value=//*[@id="ui"]/div/div/form/div/div[1]/div/input}
-</failure>
-    <system-out><![CDATA[
-Scenario: To Test the Companies Functionality of FreeCrm &amp#27;[90m# src/test/resources/features/FreeCRM.feature:21&amp#27;[0m
-log4j: Parsing for [root] with value=[INFO,CONSOLE,R,HTML,TTCC].
-log4j: Level token is [INFO].
-log4j: Category root set to INFO
-log4j: Parsing appender named "CONSOLE".
-log4j: Parsing layout options for "CONSOLE".
-log4j: Setting property [conversionPattern] to [%5p [%t] (%F:%L)- %m%n].
-log4j: End of parsing for "CONSOLE".
-log4j: Parsed "CONSOLE" options.
-log4j: Parsing appender named "R".
-log4j: Parsing layout options for "R".
-log4j: Setting property [conversionPattern] to [%d - %c -%p - %m%n].
-log4j: End of parsing for "R".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFile.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFile.log, true
-log4j: setFile ended
-log4j: Parsed "R" options.
-log4j: Parsing appender named "HTML".
-log4j: Parsing layout options for "HTML".
-log4j: Setting property [title] to [Application log].
-log4j: Setting property [locationInfo] to [true].
-log4j: End of parsing for "HTML".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//application.html].
-log4j: setFile called: .//src//test//resources//log4jproperties//application.html, true
-log4j: setFile ended
-log4j: Parsed "HTML" options.
-log4j: Parsing appender named "TTCC".
-log4j: Parsing layout options for "TTCC".
-log4j: Setting property [dateFormat] to [ISO8601].
-log4j: End of parsing for "TTCC".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFileBackup.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFileBackup.log, true
-log4j: setFile ended
-log4j: Parsed "TTCC" options.
-log4j: Finished configuring.
- INFO [main] (Library.java:45)- Starting with Browser Set Up
- INFO [main] (Library.java:53)- Identified the browser as chrome. Launching the browser
- INFO [main] (Library.java:83)- Launched the OrangeHRM Application
- INFO [main] (CogmentoLoginSteps.java:19)- Browser Launched
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mTo Launch the Browser and navigate to the Url&amp#27;[0m    &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()&amp#27;[0m
-log4j: Parsing for [root] with value=[INFO,CONSOLE,R,HTML,TTCC].
-log4j: Level token is [INFO].
-log4j: Category root set to INFO
-log4j: Parsing appender named "CONSOLE".
-log4j: Parsing layout options for "CONSOLE".
-log4j: Setting property [conversionPattern] to [%5p [%t] (%F:%L)- %m%n].
-log4j: End of parsing for "CONSOLE".
-log4j: Parsed "CONSOLE" options.
-log4j: Parsing appender named "R".
-log4j: Parsing layout options for "R".
-log4j: Setting property [conversionPattern] to [%d - %c -%p - %m%n].
-log4j: End of parsing for "R".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFile.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFile.log, true
-log4j: setFile ended
-log4j: Parsed "R" options.
-log4j: Parsing appender named "HTML".
-log4j: Parsing layout options for "HTML".
-log4j: Setting property [title] to [Application log].
-log4j: Setting property [locationInfo] to [true].
-log4j: End of parsing for "HTML".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//application.html].
-log4j: setFile called: .//src//test//resources//log4jproperties//application.html, true
-log4j: setFile ended
-log4j: Parsed "HTML" options.
-log4j: Parsing appender named "TTCC".
-log4j: Parsing layout options for "TTCC".
-log4j: Setting property [dateFormat] to [ISO8601].
-log4j: End of parsing for "TTCC".
-log4j: Setting property [file] to [.//src//test//resources//log4jproperties//LogFileBackup.log].
-log4j: setFile called: .//src//test//resources//log4jproperties//LogFileBackup.log, true
-log4j: setFile ended
-log4j: Parsed "TTCC" options.
-log4j: Finished configuring.
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mTo Enter Username and Password&amp#27;[0m                    &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-ME982STI', ip: '192.168.43.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\MONAGA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 54d2868c6ff71104580a12b1f764c89b
-*** Element info: {Using=xpath, value=//*[@id="ui"]/div/div/form/div/div[1]/div/input}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.sendKeys(Unknown Source)
-	at com.pages.CogmentoLoginPage.LoginUser(CogmentoLoginPage.java:30)
-	at com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password(CogmentoLoginSteps.java:25)
-	at ?.To Enter Username and Password(file:///D:/capgeminiworkspace/Free_CRM_Application/src/test/resources/features/FreeCRM.feature:5)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mTo Click the Submit button&amp#27;[0m                        &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mTo ask Screeshot and the Title&amp#27;[0m                    &amp#27;[90m# com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()&amp#27;[0m
-  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mOpen Companies functionlity of FreeCrm&amp#27;[0m           &amp#27;[90m# com.step_defination.CogmentoCompaniesSteps.open_Companies_functionlity_of_FreeCrm()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36masks the Companies Screeshot and the Title&amp#27;[0m        &amp#27;[90m# com.step_defination.CogmentoCompaniesSteps.asks_the_Companies_Screeshot_and_the_Title()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31501
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep 17, 2020 9:28:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Extentsreport" classname="com.test_runner.TestRunner" time="29.149">
+  <testcase name="runScenario" classname="com.test_runner.TestRunner" time="23.043"/>
+  <testcase name="runScenario" classname="com.test_runner.TestRunner" time="31.014"/>
+  <testcase name="runScenario" classname="com.test_runner.TestRunner" time="23.895"/>
+  <testcase name="runScenario" classname="com.test_runner.TestRunner" time="23.239"/>
+  <testcase name="Extentsreport" classname="com.test_runner.TestRunner" time="23.294">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.test_runner.TestRunner.Extentsreport(TestRunner.java:38)
 </failure>

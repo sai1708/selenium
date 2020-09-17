@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testng-results failed="0" passed="4" skipped="0" total="4">
-<suite duration-ms="112010" name="io.cucumber.core.plugin.TestNGFormatter">
-<test duration-ms="112010" name="io.cucumber.core.plugin.TestNGFormatter">
+<suite duration-ms="101526" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="101526" name="io.cucumber.core.plugin.TestNGFormatter">
 <class name="To Test The FreeCRM Application">
-<test-method duration-ms="26505" finished-at="2020-09-17T16:00:11.418Z" name="To Test the Home Functionality of FreeCrm" started-at="2020-09-17T15:59:44.824Z" status="PASS"/>
-<test-method duration-ms="21250" finished-at="2020-09-17T16:00:33.134Z" name="To Test the Calendar Functionality of FreeCrm" started-at="2020-09-17T16:00:11.879Z" status="PASS"/>
-<test-method duration-ms="28452" finished-at="2020-09-17T16:01:01.606Z" name="To Test the Contacts Functionality of FreeCrm" started-at="2020-09-17T16:00:33.151Z" status="PASS"/>
-<test-method duration-ms="34790" finished-at="2020-09-17T16:01:36.411Z" name="To Test the Companies Functionality of FreeCrm" started-at="2020-09-17T16:01:01.619Z" status="PASS"/>
+<test-method duration-ms="22532" finished-at="2020-09-17T17:04:35.125Z" name="To Test the Home Functionality of FreeCrm" started-at="2020-09-17T17:04:12.468Z" status="PASS"/>
+<test-method duration-ms="31002" finished-at="2020-09-17T17:05:06.385Z" name="To Test the Calendar Functionality of FreeCrm" started-at="2020-09-17T17:04:35.381Z" status="PASS"/>
+<test-method duration-ms="23883" finished-at="2020-09-17T17:05:30.285Z" name="To Test the Contacts Functionality of FreeCrm" started-at="2020-09-17T17:05:06.397Z" status="PASS"/>
+<test-method duration-ms="23229" finished-at="2020-09-17T17:05:53.528Z" name="To Test the Companies Functionality of FreeCrm" started-at="2020-09-17T17:05:30.297Z" status="PASS"/>
 </class>
 </test>
 </suite>

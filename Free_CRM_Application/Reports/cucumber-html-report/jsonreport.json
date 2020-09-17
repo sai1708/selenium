@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22825000000,
+              "duration": 18896000000,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 431000000,
+              "duration": 360000000,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 95000000,
+              "duration": 143000000,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 532000000,
+              "duration": 704000000,
               "status": "passed"
             },
             "line": 7,
@@ -60,7 +60,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-17T15:59:44.824Z",
+        "start_timestamp": "2020-09-17T17:04:12.468Z",
         "line": 9,
         "name": "To Test the Home Functionality of FreeCrm",
         "description": "",
@@ -70,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2008000000,
+              "duration": 1861000000,
               "status": "passed"
             },
             "line": 10,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 614000000,
+              "duration": 568000000,
               "status": "passed"
             },
             "line": 11,
@@ -103,7 +103,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18277000000,
+              "duration": 26623000000,
               "status": "passed"
             },
             "line": 4,
@@ -115,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 346000000,
+              "duration": 525000000,
               "status": "passed"
             },
             "line": 5,
@@ -127,7 +127,7 @@
           },
           {
             "result": {
-              "duration": 101000000,
+              "duration": 98000000,
               "status": "passed"
             },
             "line": 6,
@@ -139,7 +139,7 @@
           },
           {
             "result": {
-              "duration": 529000000,
+              "duration": 491000000,
               "status": "passed"
             },
             "line": 7,
@@ -152,7 +152,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-17T16:00:11.879Z",
+        "start_timestamp": "2020-09-17T17:04:35.381Z",
         "line": 13,
         "name": "To Test the Calendar Functionality of FreeCrm",
         "description": "",
@@ -162,7 +162,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1416000000,
+              "duration": 2326000000,
               "status": "passed"
             },
             "line": 14,
@@ -174,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 581000000,
+              "duration": 939000000,
               "status": "passed"
             },
             "line": 15,
@@ -195,7 +195,99 @@
         "steps": [
           {
             "result": {
-              "duration": 24709000000,
+              "duration": 20092000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Launch the Browser and navigate to the Url",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 301000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 436000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To ask Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T17:05:06.397Z",
+        "line": 17,
+        "name": "To Test the Contacts Functionality of FreeCrm",
+        "description": "",
+        "id": "to-test-the-freecrm-application;to-test-the-contacts-functionality-of-freecrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1827000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Open Contacts functionlity of FreeCrm",
+            "match": {
+              "location": "com.step_defination.CogmentoContactsSteps.open_Contacts_functionlity_of_FreeCrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1135000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "asks the Screeshot and the Title",
+            "match": {
+              "location": "com.step_defination.CogmentoContactsSteps.asks_the_Screeshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "To Test the Login Functionality of FreeCrm",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19972000000,
               "status": "passed"
             },
             "line": 4,
@@ -219,7 +311,7 @@
           },
           {
             "result": {
-              "duration": 94000000,
+              "duration": 100000000,
               "status": "passed"
             },
             "line": 6,
@@ -231,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 369000000,
+              "duration": 579000000,
               "status": "passed"
             },
             "line": 7,
@@ -244,99 +336,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-17T16:00:33.151Z",
-        "line": 17,
-        "name": "To Test the Contacts Functionality of FreeCrm",
-        "description": "",
-        "id": "to-test-the-freecrm-application;to-test-the-contacts-functionality-of-freecrm",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1963000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Open Contacts functionlity of FreeCrm",
-            "match": {
-              "location": "com.step_defination.CogmentoContactsSteps.open_Contacts_functionlity_of_FreeCrm()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1025000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "asks the Screeshot and the Title",
-            "match": {
-              "location": "com.step_defination.CogmentoContactsSteps.asks_the_Screeshot_and_the_Title()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "To Test the Login Functionality of FreeCrm",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 31724000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "To Launch the Browser and navigate to the Url",
-            "match": {
-              "location": "com.step_defination.CogmentoLoginSteps.to_Launch_the_Browser_and_navigate_to_the_Url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 314000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "To Enter Username and Password",
-            "match": {
-              "location": "com.step_defination.CogmentoLoginSteps.to_Enter_Username_and_Password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 76000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "To Click the Submit button",
-            "match": {
-              "location": "com.step_defination.CogmentoLoginSteps.to_Click_the_Submit_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 544000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "To ask Screeshot and the Title",
-            "match": {
-              "location": "com.step_defination.CogmentoLoginSteps.to_ask_Screeshot_and_the_Title()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-17T16:01:01.619Z",
+        "start_timestamp": "2020-09-17T17:05:30.297Z",
         "line": 21,
         "name": "To Test the Companies Functionality of FreeCrm",
         "description": "",
@@ -346,7 +346,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1163000000,
+              "duration": 1244000000,
               "status": "passed"
             },
             "line": 22,
@@ -358,7 +358,7 @@
           },
           {
             "result": {
-              "duration": 969000000,
+              "duration": 1042000000,
               "status": "passed"
             },
             "line": 23,

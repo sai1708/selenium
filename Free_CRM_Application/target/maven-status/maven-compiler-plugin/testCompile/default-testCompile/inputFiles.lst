@@ -1,11 +1,11 @@
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\pages\CogmentoLoginPage.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\pages\CogmentoHomePage.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\step_defination\CogmentoHomeSteps.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\step_defination\CogmentoLoginSteps.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\step_defination\CogmentoCompaniesSteps.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\test_runner\TestRunner.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\step_defination\CogmentoContactsSteps.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\pages\CogmentoContactsPage.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\pages\CogmentoCalendarPage.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\step_defination\CogmentoCalendarSteps.java
-D:\capgeminiworkspace\Free_CRM_Application\src\test\java\com\pages\CogmentoCompaniesPage.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\pages\CogmentoContactsPage.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\step_defination\CogmentoHomeSteps.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\pages\CogmentoCompaniesPage.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\step_defination\CogmentoContactsSteps.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\pages\CogmentoCalendarPage.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\step_defination\CogmentoCalendarSteps.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\pages\CogmentoHomePage.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\pages\CogmentoLoginPage.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\step_defination\CogmentoCompaniesSteps.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\step_defination\CogmentoLoginSteps.java
+C:\Users\MONAGARI SAI\git\selenium\Free_CRM_Application\src\test\java\com\test_runner\TestRunner.java
